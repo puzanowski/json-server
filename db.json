@@ -1,0 +1,102 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "123",
+        "role": "admin"
+      },
+      {
+        "username": "test",
+        "password": "123456",
+        "role": "student",
+        "id": 2
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan@example.com"
+      },
+      {
+        "id": 2,
+        "firstName": "María",
+        "lastName": "García",
+        "email": "maria@example.com"
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "name": "Biología",
+        "description": "Curso de biología.",
+        "quantity": 10,
+        "assignedProfessor": "Pedro Otero"
+      },
+      {
+        "name": "test",
+        "description": "test",
+        "quantity": 10,
+        "assignedProfessor": "asfafs",
+        "id": 2
+      },
+      {
+        "name": "Anatomía",
+        "description": "Curso de anatomía.",
+        "quantity": 2,
+        "assignedProfessor": "Juliana Skorowicz",
+        "id": 3
+      },
+      {
+        "name": "123",
+        "description": "142142",
+        "quantity": 0,
+        "assignedProfessor": "et34t",
+        "id": 4
+      }
+    ],
+    "enrollments": [
+      {
+        "id": 1,
+        "studentId": 1,
+        "courseId": 2,
+        "enrollmentDate": "2024-10-21T22:46:24.954Z",
+        "studentName": "Juan Pérez",
+        "courseName": "Biología"
+      },
+      {
+        "studentId": 3,
+        "courseId": 3,
+        "enrollmentDate": "2024-11-03T16:57:26.562Z",
+        "id": 2
+      },
+      {
+        "studentId": 2,
+        "courseId": 2,
+        "enrollmentDate": "2024-11-03T17:04:52.758Z",
+        "id": 3
+      },
+      {
+        "studentId": 2,
+        "courseId": 3,
+        "enrollmentDate": "2024-11-03T19:07:44.762Z",
+        "id": 7
+      },
+      {
+        "studentId": 2,
+        "courseId": 2,
+        "enrollmentDate": "2024-11-03T19:15:47.024Z",
+        "id": 8
+      },
+      {
+        "studentId": 1,
+        "courseId": 1,
+        "enrollmentDate": "2024-11-07T03:00:00.000Z",
+        "id": 9,
+        "studentName": "Juan Pérez",
+        "courseName": "Biología"
+      }
+    ]
+  }
