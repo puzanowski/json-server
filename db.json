@@ -1,4 +1,170 @@
 {
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "email": "juan.perez@mail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "María",
+      "lastName": "González",
+      "email": "maria.gonzalez@mail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Carlos",
+      "lastName": "Rodríguez",
+      "email": "carlos.rodriguez@mail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Ana",
+      "lastName": "Martínez",
+      "email": "ana.martinez@mail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Luis",
+      "lastName": "Sánchez",
+      "email": "luis.sanchez@mail.com"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Matemáticas Avanzadas",
+      "description": "Curso de matemáticas de nivel superior",
+      "quantity": 30,
+      "assignedProfessor": "Dr. Alberto Ramírez"
+    },
+    {
+      "id": 2,
+      "name": "Física Cuántica",
+      "description": "Introducción a la física cuántica",
+      "quantity": 25,
+      "assignedProfessor": "Dra. Laura Vega"
+    },
+    {
+      "id": 3,
+      "name": "Programación en Python",
+      "description": "Fundamentos de programación con Python",
+      "quantity": 35,
+      "assignedProfessor": "Ing. Marco Torres"
+    },
+    {
+      "id": 4,
+      "name": "Desarrollo Web",
+      "description": "HTML, CSS y JavaScript",
+      "quantity": 40,
+      "assignedProfessor": "Lic. Patricia Luna"
+    },
+    {
+      "id": 5,
+      "name": "Base de Datos",
+      "description": "Diseño y gestión de bases de datos",
+      "quantity": 30,
+      "assignedProfessor": "Dr. Roberto Díaz"
+    },
+    {
+      "id": 6,
+      "name": "Inteligencia Artificial",
+      "description": "Fundamentos de IA y Machine Learning",
+      "quantity": 25,
+      "assignedProfessor": "Dra. Carmen Ortiz"
+    },
+    {
+      "id": 7,
+      "name": "Redes de Computadoras",
+      "description": "Fundamentos de redes y protocolos",
+      "quantity": 30,
+      "assignedProfessor": "Ing. José Ruiz"
+    },
+    {
+      "id": 8,
+      "name": "Seguridad Informática",
+      "description": "Principios de ciberseguridad",
+      "quantity": 25,
+      "assignedProfessor": "Dr. Miguel Ángel López"
+    },
+    {
+      "id": 9,
+      "name": "Desarrollo Móvil",
+      "description": "Desarrollo de aplicaciones móviles",
+      "quantity": 35,
+      "assignedProfessor": "Ing. Ana María Soto"
+    },
+    {
+      "id": 10,
+      "name": "Cloud Computing",
+      "description": "Servicios y arquitecturas en la nube",
+      "quantity": 30,
+      "assignedProfessor": "Ing. Fernando Castro"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "courseId": 1,
+      "enrollmentDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "courseId": 3,
+      "enrollmentDate": "2024-01-16"
+    },
+    {
+      "id": 3,
+      "studentId": 2,
+      "courseId": 2,
+      "enrollmentDate": "2024-01-15"
+    },
+    {
+      "id": 4,
+      "studentId": 2,
+      "courseId": 4,
+      "enrollmentDate": "2024-01-17"
+    },
+    {
+      "id": 5,
+      "studentId": 3,
+      "courseId": 5,
+      "enrollmentDate": "2024-01-15"
+    },
+    {
+      "id": 6,
+      "studentId": 3,
+      "courseId": 6,
+      "enrollmentDate": "2024-01-18"
+    },
+    {
+      "id": 7,
+      "studentId": 4,
+      "courseId": 7,
+      "enrollmentDate": "2024-01-15"
+    },
+    {
+      "id": 8,
+      "studentId": 4,
+      "courseId": 8,
+      "enrollmentDate": "2024-01-19"
+    },
+    {
+      "id": 9,
+      "studentId": 5,
+      "courseId": 9,
+      "enrollmentDate": "2024-01-15"
+    },
+    {
+      "id": 10,
+      "studentId": 5,
+      "courseId": 10,
+      "enrollmentDate": "2024-01-20"
+    }
+  ],
   "users": [
     {
       "id": 1,
@@ -7,96 +173,10 @@
       "role": "admin"
     },
     {
+      "id": 2,
       "username": "test",
       "password": "123456",
-      "role": "student",
-      "id": 2
-    }
-  ],
-  "students": [
-    {
-      "id": 1,
-      "firstName": "Juan",
-      "lastName": "Pérez",
-      "email": "juan@example.com"
-    },
-    {
-      "id": 2,
-      "firstName": "María",
-      "lastName": "García",
-      "email": "maria@example.com"
-    }
-  ],
-  "courses": [
-    {
-      "id": 1,
-      "name": "Biología",
-      "description": "Curso de biología.",
-      "quantity": 10,
-      "assignedProfessor": "Pedro Otero"
-    },
-    {
-      "name": "test",
-      "description": "test",
-      "quantity": 10,
-      "assignedProfessor": "asfafs",
-      "id": 2
-    },
-    {
-      "name": "Anatomía",
-      "description": "Curso de anatomía.",
-      "quantity": 2,
-      "assignedProfessor": "Juliana Skorowicz",
-      "id": 3
-    },
-    {
-      "name": "123",
-      "description": "142142",
-      "quantity": 0,
-      "assignedProfessor": "et34t",
-      "id": 4
-    }
-  ],
-  "enrollments": [
-    {
-      "id": 1,
-      "studentId": 1,
-      "courseId": 2,
-      "enrollmentDate": "2024-10-21T22:46:24.954Z",
-      "studentName": "Juan Pérez",
-      "courseName": "Biología"
-    },
-    {
-      "studentId": 3,
-      "courseId": 3,
-      "enrollmentDate": "2024-11-03T16:57:26.562Z",
-      "id": 2
-    },
-    {
-      "studentId": 2,
-      "courseId": 2,
-      "enrollmentDate": "2024-11-03T17:04:52.758Z",
-      "id": 3
-    },
-    {
-      "studentId": 2,
-      "courseId": 3,
-      "enrollmentDate": "2024-11-03T19:07:44.762Z",
-      "id": 7
-    },
-    {
-      "studentId": 2,
-      "courseId": 2,
-      "enrollmentDate": "2024-11-03T19:15:47.024Z",
-      "id": 8
-    },
-    {
-      "studentId": 1,
-      "courseId": 1,
-      "enrollmentDate": "2024-11-07T03:00:00.000Z",
-      "id": 9,
-      "studentName": "Juan Pérez",
-      "courseName": "Biología"
+      "role": "student"
     }
   ]
 }
